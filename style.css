@@ -1,0 +1,165 @@
+#header-img{
+  width:70px;
+  margin-left:5px;
+}
+.nav-link{
+  text-decoration:none;
+  color:black;
+  font-family:'Poppins', sans-serif;
+}
+ul{
+  list-style:none;
+  display:flex;
+  justify-content:space-around;
+  cursor:pointer
+}
+#header{
+  display: flex;
+  width:100%;
+  padding:30px;
+  
+  
+}
+nav{
+  width:100%;
+  
+}
+#form{
+  background-color:#150485;
+  color:white;
+  font-family:'Poppins', sans-serif;
+  text-align:center;
+  padding:30px;
+  margin:auto;
+}
+input[type="email"]{
+  width:30%;
+  padding:20px;
+  border-radius:20px;
+}
+input[type="submit"]{
+  width:13%;
+  padding:10px;
+  background-color:#03c4a1;
+  border-radius:20px;
+  text-decoration-style:solid;
+  border-color:black;
+  border-width:3px;
+  cursor:pointer;
+ 
+}
+#models{
+  width:100%;
+  
+  padding:20px;
+  margin:auto;
+  font-family:'Poppins', sans-serif;
+}
+.models-images{
+  padding:35px;
+  border-radius:50%;
+  width:250px;
+  height:250px;
+  float:left;
+}
+
+.content{
+  display:flex;
+  padding:30px;
+  margin:auto;
+  margin-bottom:30px;
+  line-height:2;
+  text-align:justify;
+  
+}
+.h2{
+  text-align:center;
+  font-family:'Poppins', sans-serif;
+}
+
+
+.models{
+  width:75%;
+  
+  padding:20px;
+  margin:auto;
+  font-family:'Poppins', sans-serif;
+}
+#why-zondo{
+  background-color:#150485;
+  color:white;
+  font-family:'Poppins', sans-serif;
+  text-align:center;
+  padding:30px;
+  margin:auto;
+}
+#pricing{
+ font-family:'Poppins', sans-serif;
+ max-width:100%;
+ display:flex;
+ align-items:center;
+ margin-bottom:15px;;
+ 
+  
+
+}
+li{
+  list-style:none;
+ 
+}
+
+.pricings{
+  flex:1;
+  background-color:#f4eeed;
+  margin:20px;
+  padding:20px;
+  text-align:center;
+  border-radius:10px;
+  align-items:center;
+  align-content:center;
+  
+
+ 
+}
+
+.bn{
+  width:50%;
+  padding:10px;
+  background-color:orange;
+  border-radius:20px;
+  text-decoration-style:solid;
+  border-color:black;
+  border-width:3px;
+  cursor:pointer;
+  margin:20px;
+  
+}
+.pricings > ol {
+    margin: 15px 0;
+}
+@media screen and (max-width: 600px) {
+  .pricings {
+    background-color: #fff3e2;
+  }
+}
+.footer{
+  background-color:#150485;
+  color:white;
+  font-family:'Poppins', sans-serif;
+  text-align:center;
+  padding:10px 0px 10px;
+  margin: 0px;
+  border:none;
+  
+}
+#header{
+  position:sticky;
+  top:0px;
+  background-color:white;
+  padding-bottom:2px;
+  
+  
+}
+html {
+  scroll-behavior: smooth;
+}
